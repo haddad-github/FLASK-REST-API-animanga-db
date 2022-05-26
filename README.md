@@ -18,5 +18,3 @@ _'unique ID', 'name', 'rating', 'chapters', 'start_date', 'end_date', 'status', 
 
 Image showing an anime request:
 ![image](https://user-images.githubusercontent.com/68672661/170551817-d550549e-7e36-4b6a-a6e9-1f0e6a316ee1.png)
-
-### Database is based on Kitsu.io
