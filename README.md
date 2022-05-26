@@ -10,6 +10,13 @@ https://animanga-db.herokuapp.com/manga/
 https://animanga-db.herokuapp.com/anime/852
 https://animanga-db.herokuapp.com/manga/57382
 
-Upcoming feature:
-1) Main page with basic documentation
-2) Accessing animes by title, with an algorithm that'll choose the closest match if the requested title can't be found (spelling errors, etc.)
+For anime, returns:
+_'unique ID', 'name', 'rating', 'episodes', 'startDate', 'endDate', 'status', 'showType', 'synopsis', 'img'_
+
+For manga, returns:
+_'unique ID', 'name', 'rating', 'chapters', 'start_date', 'end_date', 'status', 'manga_type', 'synopsis', 'original_img'_
+
+Image showing an anime request:
+![image](https://user-images.githubusercontent.com/68672661/170551817-d550549e-7e36-4b6a-a6e9-1f0e6a316ee1.png)
+
+### Database is based on Kitsu.io
