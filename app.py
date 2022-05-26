@@ -18,7 +18,7 @@ def database_connection(sqlite_database):
 ####ANIME####
 
 #GET anime
-@app.route('/anime', methods=['GET'])
+@app.route('/anime/', methods=['GET'])
 def anime():
 
     #Establish database connection AND connect query executioner
@@ -70,7 +70,7 @@ def get_one_anime(ID):
 
 ####MANGA####
 #GET manga
-@app.route('/manga', methods=['GET'])
+@app.route('/manga/', methods=['GET'])
 def manga():
 
     #Establish database connection AND connect query executioner
