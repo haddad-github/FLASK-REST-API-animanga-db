@@ -4,10 +4,12 @@
 
 #### Accessing the entire database:
 https://animanga-db.herokuapp.com/anime/
+
 https://animanga-db.herokuapp.com/manga/
 
 #### Currently takes int ID's, such as:
 https://animanga-db.herokuapp.com/anime/852
+
 https://animanga-db.herokuapp.com/manga/57382
 
 For anime, returns:
