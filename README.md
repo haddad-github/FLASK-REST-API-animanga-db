@@ -17,7 +17,7 @@ https://animanga-db.herokuapp.com/anime/naruto
 
 https://animanga-db.herokuapp.com/manga/berserk
 
-### Spell checking algorithm (Levenshtein distance) that redirects to the most-likely correct URL if the name isn't found
+### Spell checking algorithm (Levenshtein distance); redirects to the most-likely correct URL if the name isn't found
 https://animanga-db.herokuapp.com/anime/natuoroto --> redirects to /naruto
 
 https://animanga-db.herokuapp.com/manga/brekser --> redirects to /berserk
