@@ -7,10 +7,20 @@ https://animanga-db.herokuapp.com/anime/
 
 https://animanga-db.herokuapp.com/manga/
 
-#### Currently takes int ID's, such as:
+#### Take int ID's, such as:
 https://animanga-db.herokuapp.com/anime/852
 
 https://animanga-db.herokuapp.com/manga/57382
+
+#### Take anime/manga name, such as:
+https://animanga-db.herokuapp.com/anime/naruto
+
+https://animanga-db.herokuapp.com/manga/berserk
+
+### Spell checking algorithm (Levenshtein distance) that redirects to the most-likely correct URL if the name isn't found
+https://animanga-db.herokuapp.com/anime/natuoroto --> redirects to /naruto
+
+https://animanga-db.herokuapp.com/manga/brekser --> redirects to /berserk
 
 For anime, returns:
 _'unique ID', 'name', 'rating', 'episodes', 'startDate', 'endDate', 'status', 'showType', 'synopsis', 'img'_
