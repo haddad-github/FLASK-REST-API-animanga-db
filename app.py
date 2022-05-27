@@ -51,6 +51,25 @@ def database_connection(sqlite_database):
         print(e)
     return connection
 
+######INTRO PAGE#######
+#UNDER CONSTRUCTION; HTML/CSS will replace this
+@app.route('/')
+def mainpage():
+    page = "<h2 style='text-align: center'>Main page is under construction<h2>\
+     <p style='text-align:center;'>You can directly start using the API by accessing: \
+     <br>https://animanga-db.herokuapp.com/{anime OR manga}/{name OR id}</p>\n \
+     <p style='text-align:center;'> <br>Examples: \
+     <br> <a href=\"https://animanga-db.herokuapp.com/anime/naruto\">https://animanga-db.herokuapp.com/anime/naruto</a> \
+     <br> <a href=\"https://animanga-db.herokuapp.com/manga/berserk\">https://animanga-db.herokuapp.com/manga/berserk</a> \
+     <br> <a href=\"https://animanga-db.herokuapp.com/anime/3911\">https://animanga-db.herokuapp.com/anime/3911</a> \
+     <br> <a href=\"https://animanga-db.herokuapp.com/manga/12492\">https://animanga-db.herokuapp.com/manga/12492</a> \
+     <br><br> Includes spellchecking (redirects to most probable name you meant): \
+     <br> <a href=\"https://animanga-db.herokuapp.com/anime/natuoroto\">https://animanga-db.herokuapp.com/anime/natuoroto</a> --> /naruto\
+     <br> <a href=\"https://animanga-db.herokuapp.com/manga/brekser\">https://animanga-db.herokuapp.com/anime/brekser</a> --> /berserk \
+     <br><br> Github repository <br><a href=\"https://github.com/haddad-github/FLASK-REST-API-animanga-db\">https://github.com/haddad-github/FLASK-REST-API-animanga-db</a></p>"
+
+    return page
+
 ####ANIME####
 
 #GET anime
