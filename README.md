@@ -7,12 +7,12 @@ https://animanga-db.herokuapp.com/anime/
 
 https://animanga-db.herokuapp.com/manga/
 
-#### Take int ID's, such as:
+#### Takes int ID's, such as:
 https://animanga-db.herokuapp.com/anime/852
 
 https://animanga-db.herokuapp.com/manga/57382
 
-#### Take anime/manga name, such as:
+#### Takes anime/manga name, such as:
 https://animanga-db.herokuapp.com/anime/naruto
 
 https://animanga-db.herokuapp.com/manga/berserk
